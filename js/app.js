@@ -109,7 +109,7 @@ window.addEventListener("DOMContentLoaded", () => {
                     || wrapCords.bottom < (targetCords.bottom)
                     || wrapCords.right < (targetCords.right - COUNTER_PX_TO_HIDE_STICKER)
                 ) {
-                    e.target.remove();
+                    sticker.remove();
                     if (!stickersWrap.childNodes.length) {
                         stickersWrap.remove();
                     }
@@ -150,7 +150,7 @@ window.addEventListener("DOMContentLoaded", () => {
                     || wrapCords.bottom < (targetCords.bottom)
                     || wrapCords.right < (targetCords.right - COUNTER_PX_TO_HIDE_STICKER)
                 ) {
-                    e.target.remove();
+                    sticker.remove();
                     if (!stickersWrap.childNodes.length) {
                         stickersWrap.remove();
                     }

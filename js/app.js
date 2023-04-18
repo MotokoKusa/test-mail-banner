@@ -65,7 +65,7 @@ function renderStickers(sticker) {
 };
 
 const hideNotification = (notification) => {
-    notification.style.display = 'none';
+    notification.remove();
     isHiddenNotification = true;
 };
 

@@ -56,6 +56,10 @@ body {
     z-index: 9999;
 }
 
+.notification img {
+    width: 100%;
+}
+
 
 /*stickers*/
 
@@ -64,6 +68,7 @@ body {
     width: 100%;
     height: 100%;
     content: "";
+    overflow: hidden;
 }
 
 .sticker {
@@ -74,38 +79,94 @@ body {
     left: 0;
     top: 0;
 }
-.sticker2{
+
+.sticker2 {
     right: 0;
     top: 0;
 }
-.sticker3{
+
+.sticker3 {
     left: 0;
     transform: translateY(-50%);
     top: 50%;
 }
-.sticker4{
+
+.sticker4 {
     right: 0;
     transform: translateY(-50%);
     top: 50%;
 }
-.sticker5{
+
+.sticker5 {
     left: 0;
     bottom: 0;
 }
-.sticker6{
+
+.sticker6 {
     right: 0;
     bottom: 0;
 }
-.sticker7{
+
+.sticker7 {
     left: 50%;
     transform: translateX(-50%);
     top: 10px;
 }
-.sticker8{
+
+.sticker8 {
     left: 50%;
     transform: translateX(-50%);
     bottom: 10px;
 }
+
+@media screen and (max-width: 800px) {
+    .sticker {
+        position: absolute;
+    }
+
+    .sticker1 {
+        width: 68.50vw;
+    }
+
+    .sticker2 {
+        width: 69.13vw;
+    }
+
+    .sticker3 {
+        width: 51.75vw;
+    }
+
+    .sticker4 {
+        width: 55.63vw;
+    }
+
+    .sticker5 {
+        width: 69.75vw;
+    }
+
+    .sticker6 {
+        width: 59.63vw;
+    }
+
+    .sticker7 {
+        width: 82.25vw;
+    }
+
+    .sticker8 {
+        width: 82.13vw;
+    }
+
+    .main__wrap {
+        padding: 6.25vw 15.63vw;
+        background: 50% 45vw / 78.75vw no-repeat url("../images/packs.png"),
+        top / 100% no-repeat url("../images/bgr.png");
+    }
+
+    .main__wrap-logo {
+        padding-bottom: 73.25vw;
+    }
+}
+
 
 
 
